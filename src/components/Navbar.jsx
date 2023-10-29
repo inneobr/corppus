@@ -1,5 +1,6 @@
 import { useMediaQuery } from "react-responsive";
 import { Link } from "react-scroll";
+import Demo from "./Demo";
 
 //Menu principal
 const menuData = [
@@ -17,6 +18,7 @@ const Navbar = () => {
 
   return (  
     <nav className="flex items-center p-2 gap-5">
+       <Demo />
        {
           menuData.map((link) => {
             return (

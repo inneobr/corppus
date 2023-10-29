@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Demo = () => {
   return (
-    <div className="fixed w-full absolute -left-[20px] -top-[20px] w-[180px] h-[180xp] z-99">
+    <div className="fixed absolute -left-[20px] -top-[20px] w-[180px] h-[180xp] z-80">
       <Image 
         src={'/assets/demo.png'} 
         width={180}
