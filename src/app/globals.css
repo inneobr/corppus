@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-primary font-oswald text-white;
+}
+
+.section {
+  @apply py-12 xl:py-24;
+}
+
+.active {
+  @apply hover:text-primary;
+}
+
+.text-hero {
+  color: #070022;
+  font-weight: bolder;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #C0FF72;
+}
+
+.bnt {
+  @apply w-full rounded-[10px] cursor-pointer transition-all  flex justify-center items-center font-medium;
+}
+
+.bnt-sm {
+  @apply w-[146px] h-[50px];
+}
+
+.bnt-lg {
+  @apply w-[160px] h-[54px];
+}
+
+.bnt-accent {
+  @apply bg-accent text-primary hover:bg-tertiary font-semibold;
+}
+
+.bnt-white {
+  @apply bg-white text-primary hover:bg-white/80;
+}
